@@ -2,8 +2,8 @@ import {SafeAreaView, View, Image, StyleSheet} from 'react-native';
 import CourierLogo from "../components/CourierLogo";
 import SideImageButton from "../components/SideImageButton";
 
+// TODO provide some better styling for this screen.
 const LoginScreen = () => {
-    console.log('LoginScreenRender');
     return (
         <SafeAreaView style={styles.outerContainter}>
             <View style={styles.container}>

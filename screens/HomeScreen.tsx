@@ -1,6 +1,6 @@
 import {SafeAreaView, View, Text, Pressable, StyleSheet} from 'react-native';
 import SideMenu from "../components/SideMenu";
-import {SideMenuProvider, useSideMenu, useSideMenuUpdate} from "../context/SideMenuContext";
+import {SideMenuProvider} from "../context/SideMenuContext";
 import CourierLogo from "../components/CourierLogo";
 import DropDownMenu from "../components/DropDownMenu";
 
