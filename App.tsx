@@ -17,6 +17,7 @@ export default function App() {
   const [request, response, promptAsync] = Google.useAuthRequest({
     iosClientId: '565230808554-an0tsddpuhjqhsa565c9a6e2a6u1rvot.apps.googleusercontent.com',
     androidClientId: '565230808554-48g7stpt35ee6jl8blfvue359modc1c4.apps.googleusercontent.com',
+    webClientId: '28380440402-fpv6iqs8d8dudt7f4liv094i2fragsdi.apps.googleusercontent.com'
   });
 
   const checkLocalUser = async () => {
